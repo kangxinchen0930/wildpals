@@ -1,29 +1,59 @@
+<link rel="stylesheet" href="index_style.css">
+
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>WildPals — Coming Soon</title>
-  <style>
-    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;margin:0;display:flex;min-height:100vh;align-items:center;justify-content:center;padding:32px}
-    .card{max-width:720px;width:100%;border:1px solid #e6e6e6;border-radius:16px;padding:28px}
-    h1{margin:0 0 8px;font-size:38px}
-    p{margin:0 0 18px;line-height:1.5;color:#333}
-    .row{display:flex;gap:12px;flex-wrap:wrap;margin-top:14px}
-    a{font-size:16px}
-    .btn{display:inline-block;padding:10px 14px;border:1px solid #111;border-radius:10px;text-decoration:none;color:#111}
-    .muted{color:#666;font-size:14px}
-  </style>
 </head>
-<body>
-  <div class="card">
-    <h1>WildPals</h1>
-    <p>Find people to run, cycle, and climb with. We are building the simplest way to organise sessions that actually happen.</p>
-    <p class="muted">Launching soon. Want early access?</p>
-    <div class="row">
-      <a class="btn" href="mailto:hello@wildpals.uk?subject=WildPals%20early%20access">Email us</a>
+<div class="page">
+  <body>
+    <header class="site-header">
+  <div class="topbar">
+    <div class="brand">
+      <img src="logo.png" alt="WildPals logo" />
+      WildPals
     </div>
-    <p class="muted" style="margin-top:18px;">© WildPals</p>
+    <nav class="links">
+      <a href="/about.html">About Us</a>
+    </nav>
   </div>
-</body>
+</header>
+
+  <main class="wrap">
+  <div class="hero-inner">
+  <section>
+    <img class="logo-big" src="logo.png" alt="WildPals logo" />
+
+    <h1>
+      Run club sessions<br>
+      without the <span class="chaos" data-text="Chaos">Chaos.</span>
+    </h1>
+
+    <p class="sub">
+      Too many group chats. Too many half-made plans. 
+    <br>
+      WildPals makes it simple for clubs and friend groups to organise sessions — and for members to request to join.
+    </p>
+
+    <div class="cta">
+      <a class="btn" href="mailto:hello@wildpals.uk?subject=WildPals%20Waiting%20List&body=Hi%20WildPals%20team%2C%0A%0APlease%20add%20me%20to%20the%20waiting%20list%2Fbeta.%0A%0AName%3A%0ACity%3A%0ASports%20(running%2Fcycling%2Fclimbing)%3A%0ADevice%20(iPhone%2FAndroid)%3A%0A%0AThanks!">
+        Join waiting list
+      </a>
+    </div>
+
+    <div class="hint"> We are opening a small beta. Help us test it! </div>
+  </section>
+  </div>
+  </main>
+  </body>
+</div>
+<footer>
+    <div>© WildPals</div>
+    <div style="display:flex; gap:14px; flex-wrap:wrap;">
+      <a href="/privacy.html">Privacy Policy</a>
+      <a href="/terms.html">Terms &amp; Services</a>
+    </div>
+  </footer>
 </html>
